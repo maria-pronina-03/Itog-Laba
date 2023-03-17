@@ -1,0 +1,14 @@
+package Calcul;
+
+public interface Number {
+
+    double sum(Number number);//суммирование
+    Number add(Number number);
+    double sub(Number number);//вычитание
+    Number subtract(Number number);
+    double mult(Number number); //умножение
+    Number multiplication(Number number);
+    double divide(Number number);//деление
+    Number division(Number number);
+    double getValue();//полученное значение
+}
